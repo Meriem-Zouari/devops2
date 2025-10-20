@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Cloner le code') {
             steps {
-                git 'https://github.com/Meriem-Zouari/devops2.git'
+                git branch: 'main', url: 'https://github.com/Meriem-Zouari/devops2.git'
             }
         }
 
